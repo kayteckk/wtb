@@ -23,9 +23,4 @@ steps:
     python -m pip install --upgrade pip
   displayName: 'Install dependencies'
 
-- script: |
-    pip install unittest
-    unittest
-  displayName: 'unittest'
-
 - script: python testykalkulator_wtb.py
