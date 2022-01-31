@@ -24,8 +24,8 @@ steps:
   displayName: 'Install dependencies'
 
 - script: |
-    pip install pytest pytest-azurepipelines
-    pytest
-  displayName: 'pytest'
+    pip install unittest
+    unittest
+  displayName: 'unittest'
 
 - script: python testykalkulator_wtb.py
